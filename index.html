@@ -1,0 +1,389 @@
+<html>
+  <head>
+    <title>Potato Phone</title>
+    <meta charset="UTF-8" />
+    <meta name="language" content="ENGLISH" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Product landing page example" />
+    <meta name="author" content="Victor Popescu, nomevictor@gmail.com" />
+    <meta http-equiv="Cache-Control" content="no-cache" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+      integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato:400,400i,700|Open+Sans:400,400i,700|Raleway:400,400i,700"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="src/style/main.scss" />
+  </head>
+
+  <body>
+    <header id="header">
+      <nav id="nav-bar" class="nav d-f justify-btw f-hrz-center w-100">
+        <div data-linkTo="home" class="nav-logo">
+          <a href="#home" class="nav-link">
+            <i class="fab fa-3x fa-phoenix-framework"></i>
+            <img
+              id="header-img"
+              src="#"
+              onerror="this.style.display = 'none'"
+              aria-hidden="true"
+            />
+          </a>
+        </div>
+        <ul class="nav-list">
+          <li data-linkTo="about" class="nav-item d-i-b">
+            <a class="d-b nav-link" href="#presentation">ABOUT</a>
+          </li>
+          <li data-linkTo="video" class="nav-item d-i-b">
+            <a class="d-b nav-link" href="#video-presentation">VIDEO</a>
+          </li>
+          <li data-linkTo="pricing" id="" class="nav-item d-i-b">
+            <a class="d-b nav-link" href="#pricing">PRICING</a>
+          </li>
+          <li data-linkTo="reviews" class="nav-item d-i-b">
+            <a class="d-b nav-link" href="#reviews">REVIEWS</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main id="app">
+      <!-- Home -->
+      <section id="home" class="section">
+        <div class="app-title">
+          <p class="app-heading-line1 text-center ">
+            POTATO P203, THE NEW KID IN TOWN
+          </p>
+          <p class="app-heading-line2 text-center text-italic">
+            A potato phone for potatoes
+          </p>
+        </div>
+      </section>
+
+      <!-- Presentation -->
+      <section
+        id="presentation"
+        class="presentation section d-f flex-row justify-center f-hrz-center"
+      >
+        <div class="presentation-descript w-50 text-white">
+          <p>
+            <i class="fa fa-cubes" aria-hidden="true"></i> Amazing design, round
+            edges and latest technologies
+          </p>
+          <p>
+            <i class="fa fa-child" aria-hidden="true"></i> Impressive impact
+            resistance, you can throw it at your loved ones again, and again.
+          </p>
+          <p>
+            <i class="fa fa-camera" aria-hidden="true"></i> The best part of
+            this phone it's its camera! Inexistent! Now no one can see you
+            naked.
+          </p>
+          <form
+            id="form"
+            class="order-form"
+            class=""
+            action="https://www.freecodecamp.com/email-submit"
+            method="post"
+          >
+            <header class="order-form-header bold underline">ORDER NOW!</header>
+            <label for="email" class="order-email-label">
+              <input
+                id="email"
+                name="email"
+                type="email"
+                placeholder="Your email"
+                class="order-email-input"
+                required
+              />
+            </label>
+            <div>
+              <input
+                id="submit"
+                class="order-submit btn-reset btn cursor-pointer"
+                type="submit"
+                value="I WANT ONE"
+              />
+            </div>
+          </form>
+        </div>
+        <div class="w-50">
+          <img
+            class="item-image shadowed"
+            src="http://pngimg.com/uploads/phone/phone_PNG454.png"
+            alt="phone"
+          />
+        </div>
+      </section>
+
+      <!-- Video -->
+      <section
+        id="video-presentation"
+        class="section d-f flex-row justify-center"
+      >
+        <div class="video-src w-50 d-f f-hrz-center justify-center">
+          <iframe
+            id="video"
+            width="75%"
+            height="450px"
+            src="https://www.youtube.com/embed/aQzYjKWmgfg?controls=0"
+            frameborder="0"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope;"
+            allowfullscreen
+          ></iframe>
+        </div>
+        <section class="video-descript w-50 d-f f-hrz-center">
+          <ul class="video-tags-container text-center">
+            <li class="video-tag">
+              <div class="tag">
+                <div class="tag-icon">
+                  <div class="tag-icon-element">
+                    <i class="fa fa-microchip" aria-hidden="true"></i>
+                  </div>
+                </div>
+                <div class="tag-body">
+                  <p class="tag-body-title">FAST RESPONSE TIME</p>
+                  <p class="tag-body-description">
+                    There is up to none processing happening here!
+                  </p>
+                </div>
+              </div>
+            </li>
+            <li class="video-tag">
+              <div class="tag">
+                <div class="tag-icon">
+                  <div class="tag-icon-element">
+                    <i
+                      class="fa fa-battery-three-quarters"
+                      aria-hidden="true"
+                    ></i>
+                  </div>
+                </div>
+                <div class="tag-body">
+                  <p class="tag-body-title">LONG BATERY LIFE</p>
+                  <p class="tag-body-description">
+                    Basically, it never ends. Endless conversations with your
+                    mother.
+                  </p>
+                </div>
+              </div>
+            </li>
+            <li class="video-tag">
+              <div class="tag">
+                <div class="tag-icon">
+                  <div class="tag-icon-element">
+                    <i class="fa fa-bell" aria-hidden="true"></i>
+                  </div>
+                </div>
+                <div class="tag-body">
+                  <p class="tag-body-title">ALERTS</p>
+                  <p class="tag-body-description">
+                    Stop worrying about missing a conversation. The new alert
+                    system will resurrect you after death.
+                  </p>
+                </div>
+              </div>
+            </li>
+            <li class="video-tag">
+              <div class="tag">
+                <div class="tag-icon">
+                  <div class="tag-icon-element">
+                    <i class="fa fa-blind" aria-hidden="true"></i>
+                  </div>
+                </div>
+                <div class="tag-body">
+                  <p class="tag-body-title">VISION LOSS FRIENDLY</p>
+                  <p class="tag-body-description">
+                    Designed with great concern for visually impaired people. No
+                    screen, nothing to see. And bonus, you can't lose it!
+                  </p>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </section>
+      </section>
+
+      <!-- Pricing -->
+      <section id="pricing" class="section d-f justify-center f-hrz-center">
+        <div class="cards-container text-center">
+          <div class="card card-price d-i-f">
+            <header class="card-header d-f justify-center f-hrz-center">
+              LIGHT
+            </header>
+            <div class="card-body d-f justify-center f-hrz-center">
+              <p>Display Resolution: 1 pixel</p>
+              <p>Size: It's a lot of it</p>
+              <p>Processor: Yea right</p>
+              <p>RAM: 0.001 Something</p>
+              <p>Operating System: Wood OS</p>
+              <p class="text-double">255$</p>
+            </div>
+            <div class="card-footer text-center">
+              <button class="btn-reset btn">GET THIS</button>
+            </div>
+          </div>
+
+          <div class="card card-price d-i-f">
+            <header class="card-header d-f justify-center f-hrz-center">
+              PRO
+            </header>
+            <div class="card-body d-f justify-center f-hrz-center">
+              <p>Display Resolution: 2 pixels</p>
+              <p>Size: Big enough</p>
+              <p>Processor: 1 + 1 MHz</p>
+              <p>RAM: 1 Teaspoon</p>
+              <p>Operating System: Steel OS</p>
+              <p class="text-double">322$</p>
+            </div>
+            <div class="card-footer text-center">
+              <button class="btn-reset btn">GET THIS</button>
+            </div>
+          </div>
+
+          <div class="card card-price d-i-f">
+            <header class="card-header d-f justify-center f-hrz-center">
+              ULTRA
+            </header>
+            <div class="card-body d-f justify-center f-hrz-center">
+              <p>Display Resolution: 3 pixels</p>
+              <p>Size: Throwable</p>
+              <p>Processor: 1 + 1 + 1 MHz</p>
+              <p>RAM: 2 buckets</p>
+              <p>Operating System: Diamond OS</p>
+              <p class="text-double">517$</p>
+            </div>
+            <div class="card-footer text-center">
+              <button class="btn-reset btn">GET THIS</button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Reviews -->
+      <section id="reviews" class="section d-f f-hrz-center">
+        <div
+          id="reviews-container"
+          class="reviews-container w-100 d-f flex-column f-hrz-center justify-center"
+        >
+          <div class="review-display">
+            <article class="review d-f flex-column f-hrz-center">
+              <img
+                class="review-img"
+                src="https://pbs.twimg.com/media/DYLuNt2UQAEqaOs.jpg"
+                alt="Grumpy Cat"
+              />
+              <blockquote class="review-quote d-f f-hrz-center">
+                <i class="quote"
+                  >"I hate it. I really do. But I hate you more."</i
+                >
+              </blockquote>
+            </article>
+          </div>
+
+          <div class="reviews-list-container">
+            <ul class="reviews-list text-center">
+              <li class="review-item d-i-b cursor-pointer" data-id="grumpy">
+                <a href="#reviews">
+                  <div class="tag">
+                    <div class="tag-icon">
+                      <div class="tag-icon-element">
+                        <img
+                          class="h-100"
+                          src="https://pbs.twimg.com/media/DYLuNt2UQAEqaOs.jpg"
+                          alt="Grumpy Cat"
+                        />
+                      </div>
+                    </div>
+                    <div class="tag-body">
+                      <p class="tag-body-title">TARDAR SAUCE</p>
+                      <p class="tag-body-description">
+                        Commonly known as Grumpy Cat.
+                      </p>
+                    </div>
+                  </div>
+                </a>
+              </li>
+
+              <li class="review-item d-i-b cursor-pointer" data-id="graham">
+                <a href="#reviews">
+                  <div class="tag">
+                    <div class="tag-icon">
+                      <div class="tag-icon-element">
+                        <img
+                          class="h-100"
+                          src="https://www.biography.com/.image/t_share/MTIwNjA4NjMzNzM5ODM4OTg4/alexander-graham-bell-9205497-2-402.jpg"
+                          alt="Alexander Graham Bell"
+                        />
+                      </div>
+                    </div>
+                    <div class="tag-body">
+                      <p class="tag-body-title">ALEXANDER GRAHAM BELL</p>
+                      <p class="tag-body-description">AT&T Founder.</p>
+                    </div>
+                  </div>
+                </a>
+              </li>
+
+              <li class="review-item d-i-b cursor-pointer" data-id="abraham">
+                <a href="#reviews">
+                  <div class="tag">
+                    <div class="tag-icon">
+                      <div class="tag-icon-element">
+                        <img
+                          class="h-100"
+                          src="https://pbs.twimg.com/profile_images/740200432073641984/810BjZ-J_400x400.jpg"
+                          alt="Abraham Lincoln"
+                        />
+                      </div>
+                    </div>
+                    <div class="tag-body">
+                      <p class="tag-body-title">ABRAHAM LINCOLN</p>
+                      <p class="tag-body-description">Vampire hunter</p>
+                    </div>
+                  </div>
+                </a>
+              </li>
+
+              <li class="review-item d-i-b cursor-pointer" data-id="jack">
+                <a href="#reviews">
+                  <div class="tag">
+                    <div class="tag-icon">
+                      <div class="tag-icon-element">
+                        <img
+                          class="h-100"
+                          src="https://memegenerator.net/img/images/400x/12118538.jpg"
+                          alt="Jack Nicholson"
+                        />
+                      </div>
+                    </div>
+                    <div class="tag-body">
+                      <p class="tag-body-title">JACK NICHOLSON</p>
+                      <p class="tag-body-description">
+                        American actor and filmmaker
+                      </p>
+                    </div>
+                  </div>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer d-f flex-column justify-center">
+      <a
+        class="copyright w-100 text-right"
+        href="https://codepen.io/VicPopescu/"
+        target="_blank"
+      >
+        Victor Popescu. December 2018. No rights reserved.
+      </a>
+    </footer>
+    <script src="src/index.js"></script>
+  </body>
+</html>
