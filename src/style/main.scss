@@ -93,8 +93,10 @@ body {
       margin-bottom: 20px;
     }
     .order-email-input {
-      padding: 12px 20px;
+      padding: 10px 20px;
       width: 260px;
+	  color: #333;
+      font-size: 16px;
       &:focus {
         outline-color: #a4eafc;
       }
